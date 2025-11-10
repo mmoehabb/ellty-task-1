@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+:root {
+  --primary: hsla(47, 100%, 57%, 1);
+  --accent: hsla(47, 100%, 65%, 1);
+  --secondary: hsla(0, 0%, 80%, 1);
+  --background: hsla(0, 0%, 100%, 1);
+  --foreground: hsla(226, 12%, 14%, 1);
+  --white: hsla(0, 0%, 100%, 1);
+  --black: hsla(226, 12%, 14%, 1);
+  --blue-10: hsla(220, 92%, 64%, 0.1);
+  --blue-50: hsla(220, 92%, 64%, 1);
+  --blue-100: hsla(220, 92%, 55%, 1);
+  --gray-50: hsla(0, 0%, 89%, 1);
+  --gray-100: hsla(0, 0%, 80%, 1);
+  --gray-200: hsla(0, 0%, 74%, 1);
+  --gray-300: hsla(0, 0%, 53%, 1);
+}
+
+@theme inline {
+  --color-primary: var(--primary);
+  --color-accent: var(--accent);
+  --color-secondary: var(--secondary);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-white: var(--white);
+  --color-black: var(--black);
+  --color-blue-10: var(--blue-10);
+  --color-blue-50: var(--blue-50);
+  --color-blue-100: var(--blue-100);
+  --color-gray-50: var(--gray-50);
+  --color-gray-100: var(--gray-100);
+  --color-gray-200: var(--gray-200);
+  --color-gray-300: var(--gray-300);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+  --primary: hsla(47, 100%, 57%, 1);
+  --accent: hsla(47, 100%, 65%, 1);
+  --secondary: hsla(0, 0%, 80%, 1);
+  --background: hsla(0, 0%, 100%, 1);
+  --foreground: hsla(226, 12%, 14%, 1);
+  --white: hsla(0, 0%, 100%, 1);
+  --black: hsla(226, 12%, 14%, 1);
+  --blue-10: hsla(220, 92%, 64%, 0.1);
+  --blue-50: hsla(220, 92%, 64%, 1);
+  --blue-100: hsla(220, 92%, 55%, 1);
+  --gray-50: hsla(0, 0%, 89%, 1);
+  --gray-100: hsla(0, 0%, 80%, 1);
+  --gray-200: hsla(0, 0%, 74%, 1);
+  --gray-300: hsla(0, 0%, 53%, 1);
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Montserrat, Helvetica, sans-serif;
+}
