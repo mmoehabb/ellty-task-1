@@ -1,10 +1,10 @@
-import cn from "classnames"
+import cn from "classnames";
 
 type Props = {
   label: string;
   className?: string;
   onClick?: () => void;
-}
+};
 
 export function Button(props: Props) {
   return (

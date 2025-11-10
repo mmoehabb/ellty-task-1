@@ -40,21 +40,21 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-  --primary: hsla(47, 100%, 57%, 1);
-  --accent: hsla(47, 100%, 65%, 1);
-  --secondary: hsla(0, 0%, 80%, 1);
-  --background: hsla(0, 0%, 100%, 1);
-  --foreground: hsla(226, 12%, 14%, 1);
-  --white: hsla(0, 0%, 100%, 1);
-  --black: hsla(226, 12%, 14%, 1);
-  --blue-10: hsla(220, 92%, 64%, 0.1);
-  --blue-50: hsla(220, 92%, 64%, 1);
-  --blue-100: hsla(220, 92%, 55%, 1);
-  --gray-10: hsla(0, 0%, 93%, 1);
-  --gray-50: hsla(0, 0%, 89%, 1);
-  --gray-100: hsla(0, 0%, 80%, 1);
-  --gray-200: hsla(0, 0%, 74%, 1);
-  --gray-300: hsla(0, 0%, 53%, 1);
+    --primary: hsla(47, 100%, 57%, 1);
+    --accent: hsla(47, 100%, 65%, 1);
+    --secondary: hsla(0, 0%, 80%, 1);
+    --background: hsla(0, 0%, 100%, 1);
+    --foreground: hsla(226, 12%, 14%, 1);
+    --white: hsla(0, 0%, 100%, 1);
+    --black: hsla(226, 12%, 14%, 1);
+    --blue-10: hsla(220, 92%, 64%, 0.1);
+    --blue-50: hsla(220, 92%, 64%, 1);
+    --blue-100: hsla(220, 92%, 55%, 1);
+    --gray-10: hsla(0, 0%, 93%, 1);
+    --gray-50: hsla(0, 0%, 89%, 1);
+    --gray-100: hsla(0, 0%, 80%, 1);
+    --gray-200: hsla(0, 0%, 74%, 1);
+    --gray-300: hsla(0, 0%, 53%, 1);
   }
 }
 
