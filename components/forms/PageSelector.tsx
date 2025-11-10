@@ -14,6 +14,7 @@ export function PageSelector() {
   return (
     <div className={cn(
       "flex flex-col min-w-[370px] p-5 bg-background rounded-lg",
+      "border-1 border-gray-10",
       "drop-shadow-[0_8px_15px_#1414141a]",
     )}>
 
